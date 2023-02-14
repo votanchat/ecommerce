@@ -1,0 +1,8 @@
+go 1.19
+
+use (
+	./internal/delivery_service
+	./internal/order_service
+	./internal/payment_service
+	./internal/shared
+)
